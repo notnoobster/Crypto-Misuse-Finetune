@@ -1,0 +1,125 @@
+{"id": "test_iid-00288", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00164", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00396", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":5}]}\n```"}
+{"id": "test_iid-00376", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00452", "text": "```json\n{\"issues\":[{\"id\":\"small_rsa_key\",\"line\":5}]}\n```"}
+{"id": "test_iid-00344", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":7}]}\n```"}
+{"id": "test_iid-00432", "text": "```json\n{\"issues\":[{\"id\":\"static_iv_nonce\",\"line\":5}]}\n```"}
+{"id": "test_iid-00092", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00020", "text": "```json\n{\"issues\":[{\"id\":\"ecb_mode\",\"line\":5},{\"id\":\"ecb_mode\",\"line\":10}]}\n```"}
+{"id": "test_iid-00296", "text": "```json\n{\"issues\":[{\"id\":\"static_iv_nonce\",\"line\":6}]}\n```"}
+{"id": "test_iid-00488", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":6}]}\n```"}
+{"id": "test_iid-00244", "text": "```json\n{\"issues\":[{\"id\":\"tls_verify_disabled\",\"line\":6}]}\n```"}
+{"id": "test_iid-00012", "text": "```json\n{\"issues\":[{\"id\":\"hardcoded_key\",\"line\":6}]}\n```"}
+{"id": "test_iid-00008", "text": "{\"issues\":[{\"id\":\"tls_verify_disabled\",\"line\":7}]}"}
+{"id": "test_iid-00312", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00480", "text": "```json\n{\"issues\":[{\"id\":\"weak_password_storage\",\"line\":7}]}\n```"}
+{"id": "test_iid-00172", "text": "```json\n{\"issues\":[{\"id\":\"ecb_mode\",\"line\":9}]}\n```"}
+{"id": "test_iid-00180", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00408", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":11}]}\n```"}
+{"id": "test_iid-00252", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"insecure_random\",\n      \"line\": 9\n    },\n    {\n      \"id\": \"small_rsa_key\",\n      \"line\": 14\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00412", "text": "```json\n{\"issues\":[{\"id\":\"tls_verify_disabled\",\"line\":13}]}\n```"}
+{"id": "test_iid-00024", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00340", "text": "```json\n{\"issues\":[{\"id\":\"small_rsa_key\",\"line\":5}]}\n```"}
+{"id": "test_iid-00472", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00304", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00220", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":11}]}\n```"}
+{"id": "test_iid-00496", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":12}]}\n```"}
+{"id": "test_iid-00492", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00004", "text": "```json\n{\"issues\":[{\"id\":\"weak_password_storage\",\"line\":15}]}\n```"}
+{"id": "test_iid-00360", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00096", "text": "```json\n{\"issues\":[{\"id\":\"nonconstant_compare\",\"line\":15}]}\n```"}
+{"id": "test_iid-00272", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00060", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00476", "text": "```json\n{\"issues\":[{\"id\":\"small_rsa_key\",\"line\":14}]}\n```"}
+{"id": "test_iid-00204", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00392", "text": "```json\n{\"issues\":[{\"id\":\"nonconstant_compare\",\"line\":9},{\"id\":\"insecure_random\",\"line\":16}]}\n```"}
+{"id": "test_iid-00256", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00424", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":8}]}\n```"}
+{"id": "test_iid-00088", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00076", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00080", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00240", "text": "```json\n{\"issues\":[{\"id\":\"nonconstant_compare\",\"line\":9}]}\n```"}
+{"id": "test_iid-00120", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":13}]}\n```"}
+{"id": "test_iid-00028", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":19}]}\n```"}
+{"id": "test_iid-00232", "text": "```json\n{\"issues\":[{\"id\":\"static_iv_nonce\",\"line\":18}]}\n```"}
+{"id": "test_iid-00184", "text": "```json\n{\"issues\":[{\"id\":\"hardcoded_key\",\"line\":14}]}\n```"}
+{"id": "test_iid-00072", "text": "```json\n{\"issues\":[{\"id\":\"nonconstant_compare\",\"line\":9}]}\n```"}
+{"id": "test_iid-00420", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 7\n    },\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 19\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00248", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":20}]}\n```"}
+{"id": "test_iid-00300", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"tls_verify_disabled\",\n      \"line\": 13\n    },\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 18\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00404", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":1},{\"id\":\"weak_cipher\",\"line\":10}]}\n```"}
+{"id": "test_iid-00000", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":17},{\"id\":\"insecure_random\",\"line\":18}]}\n```"}
+{"id": "test_iid-00372", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":9}]}\n```"}
+{"id": "test_iid-00400", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 20\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00320", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00416", "text": "```json\n{\"issues\":[{\"id\":\"nonconstant_compare\",\"line\":7}]}\n```"}
+{"id": "test_iid-00328", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":11}]}\n```"}
+{"id": "test_iid-00068", "text": "```json\n{\"issues\":[{\"id\":\"static_iv_nonce\",\"line\":7}]}\n```"}
+{"id": "test_iid-00484", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00460", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":9}]}\n```"}
+{"id": "test_iid-00132", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00108", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":18}]}\n```"}
+{"id": "test_iid-00084", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 12\n    },\n    {\n      \"id\": \"nonconstant_compare\",\n      \"line\": 17\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00116", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00276", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 8\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00188", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00036", "text": "```json\n{\"issues\":[{\"id\":\"small_rsa_key\",\"line\":13}]}\n```"}
+{"id": "test_iid-00368", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":8}]}\n```"}
+{"id": "test_iid-00200", "text": "```json\n{\"issues\":[{\"id\":\"small_rsa_key\",\"line\":11}]}\n```"}
+{"id": "test_iid-00444", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":16},{\"id\":\"insecure_random\",\"line\":17}]}\n```"}
+{"id": "test_iid-00128", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":7}]}\n```"}
+{"id": "test_iid-00156", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00216", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":16}]}\n```"}
+{"id": "test_iid-00208", "text": "```json\n{\"issues\":[{\"id\":\"weak_password_storage\",\"line\":13}]}\n```"}
+{"id": "test_iid-00332", "text": "```json\n{\"issues\":[{\"id\":\"small_rsa_key\",\"line\":7}]}\n```"}
+{"id": "test_iid-00136", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":7}]}\n```"}
+{"id": "test_iid-00056", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 1\n    },\n    {\n      \"id\": \"small_rsa_key\",\n      \"line\": 9\n    },\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 21\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00268", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00292", "text": "```json\n{\"issues\":[{\"id\":\"static_iv_nonce\",\"line\":19}]}\n```"}
+{"id": "test_iid-00048", "text": "{\"issues\":[]}"}
+{"id": "test_iid-00468", "text": "```json\n{\"issues\":[{\"id\":\"tls_verify_disabled\",\"line\":12}]}\n```"}
+{"id": "test_iid-00456", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":24}]}\n```"}
+{"id": "test_iid-00064", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00100", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":14}]}\n```"}
+{"id": "test_iid-00380", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":10}]}\n```"}
+{"id": "test_iid-00436", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 9\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00316", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"insecure_random\",\n      \"line\": 10\n    },\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 27\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00044", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":1},{\"id\":\"weak_cipher\",\"line\":25}]}\n```"}
+{"id": "test_iid-00228", "text": "```json\n{\"issues\":[{\"id\":\"tls_verify_disabled\",\"line\":10}]}\n```"}
+{"id": "test_iid-00032", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":14},{\"id\":\"weak_password_storage\",\"line\":14},{\"id\":\"insecure_random\",\"line\":30}]}\n```"}
+{"id": "test_iid-00148", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 10\n    },\n    {\n      \"id\": \"small_rsa_key\",\n      \"line\": 23\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00144", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":1},{\"id\":\"weak_cipher\",\"line\":16}]}\n```"}
+{"id": "test_iid-00224", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 7\n    },\n    {\n      \"id\": \"small_rsa_key\",\n      \"line\": 20\n    },\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 26\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00464", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 8\n    },\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 17\n    },\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 23\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00384", "text": "```json\n{\"issues\":[{\"id\":\"static_iv_nonce\",\"line\":8},{\"id\":\"static_iv_nonce\",\"line\":25}]}\n```"}
+{"id": "test_iid-00364", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 2\n    },\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 17\n    },\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 22\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00388", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00016", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00336", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00264", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 7\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00448", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":23}]}\n```"}
+{"id": "test_iid-00104", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":1},{\"id\":\"weak_cipher\",\"line\":23}]}\n```"}
+{"id": "test_iid-00284", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00168", "text": "```json\n{\"issues\":[{\"id\":\"hardcoded_key\",\"line\":8}]}\n```"}
+{"id": "test_iid-00324", "text": "```json\n{\"issues\":[]}\n```"}
+{"id": "test_iid-00040", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 25\n    },\n    {\n      \"id\": \"weak_password_storage\",\n      \"line\": 20\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00260", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"small_rsa_key\",\n      \"line\": 21\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00192", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":13}]}\n```"}
+{"id": "test_iid-00308", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"insecure_random\",\n      \"line\": 35\n    },\n    {\n      \"id\": \"insecure_random\",\n      \"line\": 36\n    },\n    {\n      \"id\": \"tls_verify_disabled\",\n      \"line\": 30\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00348", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 14\n    },\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 28\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00152", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_password_storage\",\n      \"line\": 13\n    },\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 18\n    },\n    {\n      \"id\": \"tls_verify_disabled\",\n      \"line\": 24\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00124", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":11},{\"id\":\"insecure_random\",\"line\":12}]}\n```"}
+{"id": "test_iid-00236", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 9\n    },\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 16\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00052", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 8\n    },\n    {\n      \"id\": \"nonconstant_compare\",\n      \"line\": 30\n    },\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 33\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00140", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 7\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00112", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":29}]}\n```"}
+{"id": "test_iid-00352", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"insecure_random\",\n      \"line\": 16\n    },\n    {\n      \"id\": \"nonconstant_compare\",\n      \"line\": 20\n    },\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 27\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00356", "text": "```json\n{\"issues\":[{\"id\":\"weak_hash\",\"line\":21}]}\n```"}
+{"id": "test_iid-00280", "text": "```json\n{\"issues\":[{\"id\":\"insecure_random\",\"line\":28}]}\n```"}
+{"id": "test_iid-00196", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"ecb_mode\",\n      \"line\": 15\n    },\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 32\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00176", "text": "```json\n{\"issues\":[{\"id\":\"hardcoded_key\",\"line\":7}]}\n```"}
+{"id": "test_iid-00428", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 2\n    },\n    {\n      \"id\": \"weak_cipher\",\n      \"line\": 32\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00212", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 20\n    },\n    {\n      \"id\": \"static_iv_nonce\",\n      \"line\": 26\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00160", "text": "```json\n{\n  \"issues\": [\n    {\n      \"id\": \"hardcoded_key\",\n      \"line\": 9\n    },\n    {\n      \"id\": \"weak_hash\",\n      \"line\": 40\n    }\n  ]\n}\n```"}
+{"id": "test_iid-00440", "text": "```json\n{\"issues\":[{\"id\":\"weak_cipher\",\"line\":13}]}\n```"}

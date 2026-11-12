@@ -1,0 +1,110 @@
+{
+ "n": 237,
+ "per_class": {
+  "ecb_mode": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 8,
+   "fp": 0,
+   "fn": 0
+  },
+  "static_iv_nonce": {
+   "precision": 0.9166666666666666,
+   "recall": 1.0,
+   "f1": 0.9565217391304348,
+   "tp": 11,
+   "fp": 1,
+   "fn": 0
+  },
+  "hardcoded_key": {
+   "precision": 0.4883720930232558,
+   "recall": 0.9545454545454546,
+   "f1": 0.6461538461538462,
+   "tp": 21,
+   "fp": 22,
+   "fn": 1
+  },
+  "weak_hash": {
+   "precision": 0.5,
+   "recall": 1.0,
+   "f1": 0.6666666666666666,
+   "tp": 9,
+   "fp": 9,
+   "fn": 0
+  },
+  "weak_cipher": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 3,
+   "fp": 0,
+   "fn": 0
+  },
+  "weak_password_storage": {
+   "precision": 0.8181818181818182,
+   "recall": 0.6923076923076923,
+   "f1": 0.7500000000000001,
+   "tp": 9,
+   "fp": 2,
+   "fn": 4
+  },
+  "insecure_random": {
+   "precision": 0.9130434782608695,
+   "recall": 0.9545454545454546,
+   "f1": 0.9333333333333332,
+   "tp": 21,
+   "fp": 2,
+   "fn": 1
+  },
+  "small_rsa_key": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 19,
+   "fp": 0,
+   "fn": 0
+  },
+  "nonconstant_compare": {
+   "precision": 0.72,
+   "recall": 0.8571428571428571,
+   "f1": 0.782608695652174,
+   "tp": 18,
+   "fp": 7,
+   "fn": 3
+  },
+  "tls_verify_disabled": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 27,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "micro_precision": 0.7724867724867724,
+ "micro_recall": 0.9419354838709677,
+ "micro_f1": 0.8488372093023255,
+ "macro_f1": 0.8735284280936455,
+ "exact_match": 0.8143459915611815,
+ "line_accuracy": 0.5689655172413793,
+ "parse_fail": 0,
+ "any_issue": {
+  "precision": 0.9655172413793104,
+  "recall": 0.958904109589041,
+  "f1": 0.9621993127147767
+ },
+ "covered_classes": [
+  "ecb_mode",
+  "static_iv_nonce",
+  "hardcoded_key",
+  "weak_hash",
+  "weak_cipher",
+  "weak_password_storage",
+  "insecure_random",
+  "small_rsa_key",
+  "nonconstant_compare",
+  "tls_verify_disabled"
+ ],
+ "missing_rows": 0
+}

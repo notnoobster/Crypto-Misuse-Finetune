@@ -1,0 +1,110 @@
+{
+ "n": 500,
+ "per_class": {
+  "ecb_mode": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 34,
+   "fp": 0,
+   "fn": 0
+  },
+  "static_iv_nonce": {
+   "precision": 0.9795918367346939,
+   "recall": 1.0,
+   "f1": 0.9896907216494846,
+   "tp": 48,
+   "fp": 1,
+   "fn": 0
+  },
+  "hardcoded_key": {
+   "precision": 0.9818181818181818,
+   "recall": 1.0,
+   "f1": 0.9908256880733944,
+   "tp": 54,
+   "fp": 1,
+   "fn": 0
+  },
+  "weak_hash": {
+   "precision": 0.6875,
+   "recall": 1.0,
+   "f1": 0.8148148148148148,
+   "tp": 44,
+   "fp": 20,
+   "fn": 0
+  },
+  "weak_cipher": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 48,
+   "fp": 0,
+   "fn": 0
+  },
+  "weak_password_storage": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 40,
+   "fp": 0,
+   "fn": 0
+  },
+  "insecure_random": {
+   "precision": 0.55,
+   "recall": 1.0,
+   "f1": 0.7096774193548387,
+   "tp": 33,
+   "fp": 27,
+   "fn": 0
+  },
+  "small_rsa_key": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 44,
+   "fp": 0,
+   "fn": 0
+  },
+  "nonconstant_compare": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 45,
+   "fp": 0,
+   "fn": 0
+  },
+  "tls_verify_disabled": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "tp": 44,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "micro_precision": 0.8985507246376812,
+ "micro_recall": 1.0,
+ "micro_f1": 0.9465648854961832,
+ "macro_f1": 0.9505008643892532,
+ "exact_match": 0.908,
+ "line_accuracy": 0.9889624724061811,
+ "parse_fail": 0,
+ "any_issue": {
+  "precision": 0.9712643678160919,
+  "recall": 1.0,
+  "f1": 0.9854227405247813
+ },
+ "covered_classes": [
+  "ecb_mode",
+  "static_iv_nonce",
+  "hardcoded_key",
+  "weak_hash",
+  "weak_cipher",
+  "weak_password_storage",
+  "insecure_random",
+  "small_rsa_key",
+  "nonconstant_compare",
+  "tls_verify_disabled"
+ ],
+ "missing_rows": 0
+}

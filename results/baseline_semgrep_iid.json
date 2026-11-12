@@ -1,0 +1,346 @@
+{
+ "bandit": {
+  "n": 500,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 45
+   },
+   "hardcoded_key": {
+    "precision": 1.0,
+    "recall": 0.3023255813953488,
+    "f1": 0.46428571428571425,
+    "tp": 13,
+    "fp": 0,
+    "fn": 30
+   },
+   "weak_hash": {
+    "precision": 0.7659574468085106,
+    "recall": 0.7346938775510204,
+    "f1": 0.7499999999999999,
+    "tp": 36,
+    "fp": 11,
+    "fn": 13
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 0.7073170731707317,
+    "f1": 0.8285714285714285,
+    "tp": 29,
+    "fp": 0,
+    "fn": 12
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 36
+   },
+   "insecure_random": {
+    "precision": 0.3383458646616541,
+    "recall": 1.0,
+    "f1": 0.5056179775280898,
+    "tp": 45,
+    "fp": 88,
+    "fn": 0
+   },
+   "small_rsa_key": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.7045454545454546,
+    "f1": 0.8266666666666667,
+    "tp": 31,
+    "fp": 0,
+    "fn": 13
+   }
+  },
+  "micro_precision": 0.6666666666666666,
+  "micro_recall": 0.6407766990291263,
+  "micro_f1": 0.6534653465346535,
+  "macro_f1": 0.6250202552931284,
+  "exact_match": 0.486,
+  "line_accuracy": 0.9563106796116505,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.9153225806451613,
+   "recall": 0.6485714285714286,
+   "f1": 0.7591973244147158
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "hardcoded_key",
+   "insecure_random",
+   "small_rsa_key",
+   "tls_verify_disabled",
+   "weak_cipher",
+   "weak_hash"
+  ]
+ },
+ "bandit_all_classes": {
+  "n": 500,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 45
+   },
+   "hardcoded_key": {
+    "precision": 1.0,
+    "recall": 0.3023255813953488,
+    "f1": 0.46428571428571425,
+    "tp": 13,
+    "fp": 0,
+    "fn": 30
+   },
+   "weak_hash": {
+    "precision": 0.7659574468085106,
+    "recall": 0.7346938775510204,
+    "f1": 0.7499999999999999,
+    "tp": 36,
+    "fp": 11,
+    "fn": 13
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 0.7073170731707317,
+    "f1": 0.8285714285714285,
+    "tp": 29,
+    "fp": 0,
+    "fn": 12
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 36
+   },
+   "insecure_random": {
+    "precision": 0.3383458646616541,
+    "recall": 1.0,
+    "f1": 0.5056179775280898,
+    "tp": 45,
+    "fp": 88,
+    "fn": 0
+   },
+   "small_rsa_key": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.7045454545454546,
+    "f1": 0.8266666666666667,
+    "tp": 31,
+    "fp": 0,
+    "fn": 13
+   }
+  },
+  "micro_precision": 0.6666666666666666,
+  "micro_recall": 0.45727482678983833,
+  "micro_f1": 0.5424657534246575,
+  "macro_f1": 0.43751417870518994,
+  "exact_match": 0.486,
+  "line_accuracy": 0.9563106796116505,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.9153225806451613,
+   "recall": 0.6485714285714286,
+   "f1": 0.7591973244147158
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "static_iv_nonce",
+   "hardcoded_key",
+   "weak_hash",
+   "weak_cipher",
+   "weak_password_storage",
+   "insecure_random",
+   "small_rsa_key",
+   "nonconstant_compare",
+   "tls_verify_disabled"
+  ]
+ },
+ "bandit_rule_hits": {
+  "B311": 147,
+  "B413": 709,
+  "B324": 38,
+  "B304": 29,
+  "B501": 31,
+  "B105": 13,
+  "B505": 44,
+  "B303": 10
+ },
+ "semgrep_all_classes": {
+  "n": 500,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 45
+   },
+   "hardcoded_key": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "weak_hash": {
+    "precision": 0.7659574468085106,
+    "recall": 0.7346938775510204,
+    "f1": 0.7499999999999999,
+    "tp": 36,
+    "fp": 11,
+    "fn": 13
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 41,
+    "fp": 0,
+    "fn": 0
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 36
+   },
+   "insecure_random": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 45
+   },
+   "small_rsa_key": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "tp": 44,
+    "fp": 22,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 43
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.7045454545454546,
+    "f1": 0.8266666666666667,
+    "tp": 31,
+    "fp": 0,
+    "fn": 13
+   }
+  },
+  "micro_precision": 0.8216216216216217,
+  "micro_recall": 0.3510392609699769,
+  "micro_f1": 0.49190938511326865,
+  "macro_f1": 0.33766666666666667,
+  "exact_match": 0.48,
+  "line_accuracy": 0.9869281045751634,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.9588235294117647,
+   "recall": 0.4657142857142857,
+   "f1": 0.6269230769230769
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "static_iv_nonce",
+   "hardcoded_key",
+   "weak_hash",
+   "weak_cipher",
+   "weak_password_storage",
+   "insecure_random",
+   "small_rsa_key",
+   "nonconstant_compare",
+   "tls_verify_disabled"
+  ]
+ },
+ "semgrep_rule_hits": {
+  "insecure-hash-algorithm-sha1": 27,
+  "insecure-cipher-algorithm-rc4": 13,
+  "disabled-cert-validation": 31,
+  "insecure-cipher-algorithm-des": 19,
+  "crypto-mode-without-authentication": 18,
+  "insufficient-rsa-key-size": 66,
+  "insecure-cipher-algorithm-blowfish": 9,
+  "insecure-hash-algorithm-md5": 21
+ }
+}

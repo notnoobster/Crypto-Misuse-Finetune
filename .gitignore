@@ -1,0 +1,6 @@
+__pycache__/
+adapters/
+logs/
+ft-env/
+tools-env/
+*.pyc

@@ -1,0 +1,228 @@
+{
+ "bandit": {
+  "n": 500,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 34,
+    "fp": 0,
+    "fn": 0
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 48
+   },
+   "hardcoded_key": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "tp": 18,
+    "fp": 0,
+    "fn": 36
+   },
+   "weak_hash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 48,
+    "fp": 0,
+    "fn": 0
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 40
+   },
+   "insecure_random": {
+    "precision": 0.07142857142857142,
+    "recall": 0.18181818181818182,
+    "f1": 0.10256410256410255,
+    "tp": 6,
+    "fp": 78,
+    "fn": 27
+   },
+   "small_rsa_key": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 45
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.4318181818181818,
+    "f1": 0.6031746031746031,
+    "tp": 19,
+    "fp": 0,
+    "fn": 25
+   }
+  },
+  "micro_precision": 0.7319587628865979,
+  "micro_recall": 0.707641196013289,
+  "micro_f1": 0.7195945945945946,
+  "macro_f1": 0.7436769579626723,
+  "exact_match": 0.496,
+  "line_accuracy": 0.971830985915493,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.8623481781376519,
+   "recall": 0.6301775147928994,
+   "f1": 0.7282051282051282
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "hardcoded_key",
+   "insecure_random",
+   "small_rsa_key",
+   "tls_verify_disabled",
+   "weak_cipher",
+   "weak_hash"
+  ]
+ },
+ "bandit_all_classes": {
+  "n": 500,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 34,
+    "fp": 0,
+    "fn": 0
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 48
+   },
+   "hardcoded_key": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "tp": 18,
+    "fp": 0,
+    "fn": 36
+   },
+   "weak_hash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 48,
+    "fp": 0,
+    "fn": 0
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 40
+   },
+   "insecure_random": {
+    "precision": 0.07142857142857142,
+    "recall": 0.18181818181818182,
+    "f1": 0.10256410256410255,
+    "tp": 6,
+    "fp": 78,
+    "fn": 27
+   },
+   "small_rsa_key": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 45
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.4318181818181818,
+    "f1": 0.6031746031746031,
+    "tp": 19,
+    "fp": 0,
+    "fn": 25
+   }
+  },
+  "micro_precision": 0.7319587628865979,
+  "micro_recall": 0.49078341013824883,
+  "micro_f1": 0.5875862068965517,
+  "macro_f1": 0.5205738705738706,
+  "exact_match": 0.496,
+  "line_accuracy": 0.971830985915493,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.8623481781376519,
+   "recall": 0.6301775147928994,
+   "f1": 0.7282051282051282
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "static_iv_nonce",
+   "hardcoded_key",
+   "weak_hash",
+   "weak_cipher",
+   "weak_password_storage",
+   "insecure_random",
+   "small_rsa_key",
+   "nonconstant_compare",
+   "tls_verify_disabled"
+  ]
+ },
+ "bandit_rule_hits": {
+  "B310": 46,
+  "B304": 48,
+  "B311": 88,
+  "B505": 44,
+  "B305": 34,
+  "B303": 44,
+  "B501": 8,
+  "B105": 18,
+  "B323": 11
+ }
+}

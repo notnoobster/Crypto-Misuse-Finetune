@@ -1,0 +1,1800 @@
+{
+ "bandit": {
+  "n": 237,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 4,
+    "fp": 0,
+    "fn": 4
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 11
+   },
+   "hardcoded_key": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7272727272727273,
+    "f1": 0.7272727272727273,
+    "tp": 16,
+    "fp": 6,
+    "fn": 6
+   },
+   "weak_hash": {
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1": 0.6,
+    "tp": 9,
+    "fp": 12,
+    "fn": 0
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 0,
+    "fn": 2
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 13
+   },
+   "insecure_random": {
+    "precision": 1.0,
+    "recall": 0.9545454545454546,
+    "f1": 0.9767441860465117,
+    "tp": 21,
+    "fp": 0,
+    "fn": 1
+   },
+   "small_rsa_key": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 19,
+    "fp": 0,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 21
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.5925925925925926,
+    "f1": 0.7441860465116279,
+    "tp": 16,
+    "fp": 0,
+    "fn": 11
+   }
+  },
+  "micro_precision": 0.8269230769230769,
+  "micro_recall": 0.7818181818181819,
+  "micro_f1": 0.8037383177570092,
+  "macro_f1": 0.7449813752139333,
+  "exact_match": 0.7046413502109705,
+  "line_accuracy": 0.5151515151515151,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.9797979797979798,
+   "recall": 0.6643835616438356,
+   "f1": 0.7918367346938775
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "hardcoded_key",
+   "insecure_random",
+   "small_rsa_key",
+   "tls_verify_disabled",
+   "weak_cipher",
+   "weak_hash"
+  ]
+ },
+ "bandit_all_classes": {
+  "n": 237,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 4,
+    "fp": 0,
+    "fn": 4
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 11
+   },
+   "hardcoded_key": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7272727272727273,
+    "f1": 0.7272727272727273,
+    "tp": 16,
+    "fp": 6,
+    "fn": 6
+   },
+   "weak_hash": {
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1": 0.6,
+    "tp": 9,
+    "fp": 12,
+    "fn": 0
+   },
+   "weak_cipher": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 0,
+    "fn": 2
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 13
+   },
+   "insecure_random": {
+    "precision": 1.0,
+    "recall": 0.9545454545454546,
+    "f1": 0.9767441860465117,
+    "tp": 21,
+    "fp": 0,
+    "fn": 1
+   },
+   "small_rsa_key": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 19,
+    "fp": 0,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 21
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.5925925925925926,
+    "f1": 0.7441860465116279,
+    "tp": 16,
+    "fp": 0,
+    "fn": 11
+   }
+  },
+  "micro_precision": 0.8269230769230769,
+  "micro_recall": 0.5548387096774193,
+  "micro_f1": 0.664092664092664,
+  "macro_f1": 0.5214869626497534,
+  "exact_match": 0.7046413502109705,
+  "line_accuracy": 0.5151515151515151,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 0.9797979797979798,
+   "recall": 0.6643835616438356,
+   "f1": 0.7918367346938775
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "static_iv_nonce",
+   "hardcoded_key",
+   "weak_hash",
+   "weak_cipher",
+   "weak_password_storage",
+   "insecure_random",
+   "small_rsa_key",
+   "nonconstant_compare",
+   "tls_verify_disabled"
+  ]
+ },
+ "bandit_rule_hits": {
+  "B311": 24,
+  "B413": 66,
+  "B505": 19,
+  "B104": 13,
+  "B324": 26,
+  "B305": 5,
+  "B501": 19,
+  "B113": 26,
+  "B304": 1,
+  "B201": 3,
+  "B303": 2,
+  "B105": 23,
+  "B108": 3,
+  "B310": 5,
+  "B110": 3,
+  "B403": 1
+ },
+ "bandit_preds": {
+  "natural-0000": [],
+  "natural-0001": [
+   {
+    "id": "insecure_random",
+    "line": 11
+   }
+  ],
+  "natural-0002": [],
+  "natural-0003": [],
+  "natural-0004": [
+   {
+    "id": "small_rsa_key",
+    "line": 29
+   }
+  ],
+  "natural-0005": [],
+  "natural-0006": [],
+  "natural-0007": [],
+  "natural-0008": [
+   {
+    "id": "weak_hash",
+    "line": 50
+   }
+  ],
+  "natural-0009": [
+   {
+    "id": "ecb_mode",
+    "line": 41
+   }
+  ],
+  "natural-0010": [
+   {
+    "id": "weak_hash",
+    "line": 9
+   },
+   {
+    "id": "weak_hash",
+    "line": 12
+   }
+  ],
+  "natural-0011": [],
+  "natural-0012": [],
+  "natural-0013": [
+   {
+    "id": "small_rsa_key",
+    "line": 7
+   }
+  ],
+  "natural-0014": [
+   {
+    "id": "insecure_random",
+    "line": 10
+   }
+  ],
+  "natural-0015": [],
+  "natural-0016": [],
+  "natural-0017": [],
+  "natural-0018": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 52
+   }
+  ],
+  "natural-0019": [],
+  "natural-0020": [
+   {
+    "id": "weak_cipher",
+    "line": 14
+   }
+  ],
+  "natural-0021": [
+   {
+    "id": "insecure_random",
+    "line": 30
+   }
+  ],
+  "natural-0022": [],
+  "natural-0023": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 15
+   }
+  ],
+  "natural-0024": [],
+  "natural-0025": [],
+  "natural-0026": [],
+  "natural-0027": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0028": [],
+  "natural-0029": [
+   {
+    "id": "small_rsa_key",
+    "line": 6
+   }
+  ],
+  "natural-0030": [],
+  "natural-0031": [],
+  "natural-0032": [],
+  "natural-0033": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 15
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 28
+   }
+  ],
+  "natural-0034": [],
+  "natural-0035": [],
+  "natural-0036": [],
+  "natural-0037": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   }
+  ],
+  "natural-0038": [
+   {
+    "id": "insecure_random",
+    "line": 13
+   },
+   {
+    "id": "insecure_random",
+    "line": 30
+   }
+  ],
+  "natural-0039": [],
+  "natural-0040": [],
+  "natural-0041": [
+   {
+    "id": "small_rsa_key",
+    "line": 8
+   }
+  ],
+  "natural-0042": [
+   {
+    "id": "ecb_mode",
+    "line": 13
+   },
+   {
+    "id": "ecb_mode",
+    "line": 44
+   }
+  ],
+  "natural-0043": [
+   {
+    "id": "weak_hash",
+    "line": 21
+   },
+   {
+    "id": "weak_hash",
+    "line": 32
+   }
+  ],
+  "natural-0044": [],
+  "natural-0045": [],
+  "natural-0046": [],
+  "natural-0047": [],
+  "natural-0048": [],
+  "natural-0049": [],
+  "natural-0050": [],
+  "natural-0051": [
+   {
+    "id": "weak_hash",
+    "line": 19
+   }
+  ],
+  "natural-0052": [],
+  "natural-0053": [
+   {
+    "id": "insecure_random",
+    "line": 12
+   }
+  ],
+  "natural-0054": [
+   {
+    "id": "hardcoded_key",
+    "line": 9
+   }
+  ],
+  "natural-0055": [],
+  "natural-0056": [
+   {
+    "id": "weak_hash",
+    "line": 33
+   },
+   {
+    "id": "weak_hash",
+    "line": 46
+   }
+  ],
+  "natural-0057": [],
+  "natural-0058": [
+   {
+    "id": "insecure_random",
+    "line": 14
+   }
+  ],
+  "natural-0059": [],
+  "natural-0060": [
+   {
+    "id": "hardcoded_key",
+    "line": 7
+   }
+  ],
+  "natural-0061": [],
+  "natural-0062": [],
+  "natural-0063": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 29
+   }
+  ],
+  "natural-0064": [
+   {
+    "id": "small_rsa_key",
+    "line": 16
+   }
+  ],
+  "natural-0065": [
+   {
+    "id": "hardcoded_key",
+    "line": 32
+   }
+  ],
+  "natural-0066": [],
+  "natural-0067": [],
+  "natural-0068": [],
+  "natural-0069": [],
+  "natural-0070": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 37
+   }
+  ],
+  "natural-0071": [
+   {
+    "id": "hardcoded_key",
+    "line": 7
+   }
+  ],
+  "natural-0072": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   },
+   {
+    "id": "weak_hash",
+    "line": 18
+   }
+  ],
+  "natural-0073": [],
+  "natural-0074": [],
+  "natural-0075": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 29
+   }
+  ],
+  "natural-0076": [
+   {
+    "id": "insecure_random",
+    "line": 12
+   }
+  ],
+  "natural-0077": [],
+  "natural-0078": [],
+  "natural-0079": [
+   {
+    "id": "small_rsa_key",
+    "line": 71
+   }
+  ],
+  "natural-0080": [],
+  "natural-0081": [],
+  "natural-0082": [
+   {
+    "id": "weak_hash",
+    "line": 17
+   },
+   {
+    "id": "weak_hash",
+    "line": 20
+   },
+   {
+    "id": "weak_hash",
+    "line": 24
+   }
+  ],
+  "natural-0083": [
+   {
+    "id": "hardcoded_key",
+    "line": 17
+   }
+  ],
+  "natural-0084": [],
+  "natural-0085": [
+   {
+    "id": "weak_hash",
+    "line": 15
+   }
+  ],
+  "natural-0086": [],
+  "natural-0087": [],
+  "natural-0088": [],
+  "natural-0089": [],
+  "natural-0090": [],
+  "natural-0091": [],
+  "natural-0092": [
+   {
+    "id": "hardcoded_key",
+    "line": 61
+   },
+   {
+    "id": "insecure_random",
+    "line": 63
+   }
+  ],
+  "natural-0093": [
+   {
+    "id": "small_rsa_key",
+    "line": 9
+   }
+  ],
+  "natural-0094": [],
+  "natural-0095": [],
+  "natural-0096": [
+   {
+    "id": "insecure_random",
+    "line": 19
+   },
+   {
+    "id": "hardcoded_key",
+    "line": 50
+   }
+  ],
+  "natural-0097": [
+   {
+    "id": "hardcoded_key",
+    "line": 26
+   }
+  ],
+  "natural-0098": [],
+  "natural-0099": [],
+  "natural-0100": [
+   {
+    "id": "hardcoded_key",
+    "line": 8
+   }
+  ],
+  "natural-0101": [],
+  "natural-0102": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0103": [
+   {
+    "id": "insecure_random",
+    "line": 16
+   }
+  ],
+  "natural-0104": [],
+  "natural-0105": [],
+  "natural-0106": [
+   {
+    "id": "small_rsa_key",
+    "line": 8
+   }
+  ],
+  "natural-0107": [],
+  "natural-0108": [],
+  "natural-0109": [],
+  "natural-0110": [
+   {
+    "id": "hardcoded_key",
+    "line": 9
+   }
+  ],
+  "natural-0111": [],
+  "natural-0112": [],
+  "natural-0113": [],
+  "natural-0114": [],
+  "natural-0115": [],
+  "natural-0116": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 9
+   }
+  ],
+  "natural-0117": [
+   {
+    "id": "hardcoded_key",
+    "line": 6
+   }
+  ],
+  "natural-0118": [
+   {
+    "id": "insecure_random",
+    "line": 13
+   },
+   {
+    "id": "insecure_random",
+    "line": 27
+   }
+  ],
+  "natural-0119": [
+   {
+    "id": "hardcoded_key",
+    "line": 10
+   }
+  ],
+  "natural-0120": [
+   {
+    "id": "weak_hash",
+    "line": 24
+   },
+   {
+    "id": "weak_hash",
+    "line": 29
+   }
+  ],
+  "natural-0121": [],
+  "natural-0122": [],
+  "natural-0123": [],
+  "natural-0124": [],
+  "natural-0125": [
+   {
+    "id": "hardcoded_key",
+    "line": 44
+   }
+  ],
+  "natural-0126": [],
+  "natural-0127": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 28
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 43
+   }
+  ],
+  "natural-0128": [],
+  "natural-0129": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 22
+   }
+  ],
+  "natural-0130": [],
+  "natural-0131": [],
+  "natural-0132": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   }
+  ],
+  "natural-0133": [],
+  "natural-0134": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 18
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 34
+   }
+  ],
+  "natural-0135": [],
+  "natural-0136": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 21
+   }
+  ],
+  "natural-0137": [],
+  "natural-0138": [
+   {
+    "id": "weak_hash",
+    "line": 15
+   }
+  ],
+  "natural-0139": [
+   {
+    "id": "insecure_random",
+    "line": 22
+   }
+  ],
+  "natural-0140": [
+   {
+    "id": "small_rsa_key",
+    "line": 8
+   }
+  ],
+  "natural-0141": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 70
+   }
+  ],
+  "natural-0142": [
+   {
+    "id": "hardcoded_key",
+    "line": 8
+   }
+  ],
+  "natural-0143": [],
+  "natural-0144": [],
+  "natural-0145": [],
+  "natural-0146": [],
+  "natural-0147": [],
+  "natural-0148": [
+   {
+    "id": "insecure_random",
+    "line": 40
+   }
+  ],
+  "natural-0149": [
+   {
+    "id": "hardcoded_key",
+    "line": 6
+   }
+  ],
+  "natural-0150": [],
+  "natural-0151": [],
+  "natural-0152": [],
+  "natural-0153": [
+   {
+    "id": "insecure_random",
+    "line": 9
+   }
+  ],
+  "natural-0154": [],
+  "natural-0155": [],
+  "natural-0156": [],
+  "natural-0157": [],
+  "natural-0158": [],
+  "natural-0159": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 31
+   }
+  ],
+  "natural-0160": [],
+  "natural-0161": [],
+  "natural-0162": [],
+  "natural-0163": [],
+  "natural-0164": [],
+  "natural-0165": [],
+  "natural-0166": [
+   {
+    "id": "small_rsa_key",
+    "line": 17
+   }
+  ],
+  "natural-0167": [],
+  "natural-0168": [
+   {
+    "id": "weak_hash",
+    "line": 9
+   }
+  ],
+  "natural-0169": [
+   {
+    "id": "insecure_random",
+    "line": 18
+   }
+  ],
+  "natural-0170": [],
+  "natural-0171": [
+   {
+    "id": "small_rsa_key",
+    "line": 20
+   }
+  ],
+  "natural-0172": [
+   {
+    "id": "insecure_random",
+    "line": 13
+   }
+  ],
+  "natural-0173": [
+   {
+    "id": "small_rsa_key",
+    "line": 10
+   }
+  ],
+  "natural-0174": [
+   {
+    "id": "ecb_mode",
+    "line": 12
+   }
+  ],
+  "natural-0175": [
+   {
+    "id": "weak_hash",
+    "line": 33
+   }
+  ],
+  "natural-0176": [],
+  "natural-0177": [
+   {
+    "id": "small_rsa_key",
+    "line": 13
+   }
+  ],
+  "natural-0178": [],
+  "natural-0179": [
+   {
+    "id": "small_rsa_key",
+    "line": 12
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 34
+   }
+  ],
+  "natural-0180": [],
+  "natural-0181": [
+   {
+    "id": "hardcoded_key",
+    "line": 8
+   }
+  ],
+  "natural-0182": [
+   {
+    "id": "insecure_random",
+    "line": 15
+   }
+  ],
+  "natural-0183": [
+   {
+    "id": "small_rsa_key",
+    "line": 17
+   }
+  ],
+  "natural-0184": [
+   {
+    "id": "small_rsa_key",
+    "line": 14
+   },
+   {
+    "id": "ecb_mode",
+    "line": 25
+   }
+  ],
+  "natural-0185": [
+   {
+    "id": "small_rsa_key",
+    "line": 10
+   }
+  ],
+  "natural-0186": [
+   {
+    "id": "hardcoded_key",
+    "line": 8
+   }
+  ],
+  "natural-0187": [],
+  "natural-0188": [
+   {
+    "id": "hardcoded_key",
+    "line": 8
+   }
+  ],
+  "natural-0189": [],
+  "natural-0190": [],
+  "natural-0191": [],
+  "natural-0192": [
+   {
+    "id": "hardcoded_key",
+    "line": 5
+   },
+   {
+    "id": "hardcoded_key",
+    "line": 6
+   }
+  ],
+  "natural-0193": [],
+  "natural-0194": [],
+  "natural-0195": [],
+  "natural-0196": [],
+  "natural-0197": [],
+  "natural-0198": [],
+  "natural-0199": [],
+  "natural-0200": [
+   {
+    "id": "hardcoded_key",
+    "line": 7
+   }
+  ],
+  "natural-0201": [],
+  "natural-0202": [],
+  "natural-0203": [],
+  "natural-0204": [],
+  "natural-0205": [],
+  "natural-0206": [],
+  "natural-0207": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   }
+  ],
+  "natural-0208": [],
+  "natural-0209": [],
+  "natural-0210": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0211": [],
+  "natural-0212": [],
+  "natural-0213": [],
+  "natural-0214": [
+   {
+    "id": "hardcoded_key",
+    "line": 7
+   }
+  ],
+  "natural-0215": [],
+  "natural-0216": [],
+  "natural-0217": [
+   {
+    "id": "insecure_random",
+    "line": 13
+   }
+  ],
+  "natural-0218": [],
+  "natural-0219": [
+   {
+    "id": "insecure_random",
+    "line": 14
+   },
+   {
+    "id": "insecure_random",
+    "line": 23
+   }
+  ],
+  "natural-0220": [],
+  "natural-0221": [],
+  "natural-0222": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0223": [],
+  "natural-0224": [],
+  "natural-0225": [],
+  "natural-0226": [
+   {
+    "id": "insecure_random",
+    "line": 34
+   }
+  ],
+  "natural-0227": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 27
+   }
+  ],
+  "natural-0228": [
+   {
+    "id": "weak_hash",
+    "line": 13
+   }
+  ],
+  "natural-0229": [
+   {
+    "id": "insecure_random",
+    "line": 9
+   },
+   {
+    "id": "weak_hash",
+    "line": 23
+   }
+  ],
+  "natural-0230": [],
+  "natural-0231": [],
+  "natural-0232": [
+   {
+    "id": "small_rsa_key",
+    "line": 7
+   }
+  ],
+  "natural-0233": [
+   {
+    "id": "hardcoded_key",
+    "line": 62
+   }
+  ],
+  "natural-0234": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 39
+   }
+  ],
+  "natural-0235": [],
+  "natural-0236": [
+   {
+    "id": "small_rsa_key",
+    "line": 7
+   }
+  ]
+ },
+ "semgrep_all_classes": {
+  "n": 237,
+  "per_class": {
+   "ecb_mode": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8
+   },
+   "static_iv_nonce": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 11
+   },
+   "hardcoded_key": {
+    "precision": 1.0,
+    "recall": 0.09090909090909091,
+    "f1": 0.16666666666666669,
+    "tp": 2,
+    "fp": 0,
+    "fn": 20
+   },
+   "weak_hash": {
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1": 0.6,
+    "tp": 9,
+    "fp": 12,
+    "fn": 0
+   },
+   "weak_cipher": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 3
+   },
+   "weak_password_storage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 13
+   },
+   "insecure_random": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 22
+   },
+   "small_rsa_key": {
+    "precision": 0.95,
+    "recall": 1.0,
+    "f1": 0.9743589743589743,
+    "tp": 19,
+    "fp": 1,
+    "fn": 0
+   },
+   "nonconstant_compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 21
+   },
+   "tls_verify_disabled": {
+    "precision": 1.0,
+    "recall": 0.5555555555555556,
+    "f1": 0.7142857142857143,
+    "tp": 15,
+    "fp": 0,
+    "fn": 12
+   }
+  },
+  "micro_precision": 0.7758620689655172,
+  "micro_recall": 0.2903225806451613,
+  "micro_f1": 0.4225352112676056,
+  "macro_f1": 0.24553113553113554,
+  "exact_match": 0.5654008438818565,
+  "line_accuracy": 0.5471698113207547,
+  "parse_fail": 0,
+  "any_issue": {
+   "precision": 1.0,
+   "recall": 0.3904109589041096,
+   "f1": 0.5615763546798029
+  },
+  "covered_classes": [
+   "ecb_mode",
+   "static_iv_nonce",
+   "hardcoded_key",
+   "weak_hash",
+   "weak_cipher",
+   "weak_password_storage",
+   "insecure_random",
+   "small_rsa_key",
+   "nonconstant_compare",
+   "tls_verify_disabled"
+  ]
+ },
+ "semgrep_rule_hits": {
+  "insufficient-rsa-key-size": 20,
+  "avoid_app_run_with_bad_host": 9,
+  "crypto-mode-without-authentication": 33,
+  "insecure-hash-algorithm-md5": 27,
+  "md5-used-as-password": 14,
+  "disabled-cert-validation": 18,
+  "python-logger-credential-disclosure": 2,
+  "debug-enabled": 3,
+  "jwt-python-hardcoded-secret": 1,
+  "request-with-http": 1,
+  "dynamic-urllib-use-detected": 5,
+  "avoid_hardcoded_config_secret_key": 1,
+  "insecure-hash-function": 1,
+  "ssrf-injection-requests": 1,
+  "ssrf-requests": 1,
+  "secure-set-cookie": 1
+ },
+ "semgrep_preds": {
+  "natural-0000": [],
+  "natural-0001": [],
+  "natural-0002": [],
+  "natural-0003": [],
+  "natural-0004": [
+   {
+    "id": "small_rsa_key",
+    "line": 29
+   }
+  ],
+  "natural-0005": [],
+  "natural-0006": [],
+  "natural-0007": [],
+  "natural-0008": [
+   {
+    "id": "weak_hash",
+    "line": 50
+   },
+   {
+    "id": "weak_hash",
+    "line": 50
+   }
+  ],
+  "natural-0009": [],
+  "natural-0010": [
+   {
+    "id": "weak_hash",
+    "line": 9
+   },
+   {
+    "id": "weak_hash",
+    "line": 12
+   }
+  ],
+  "natural-0011": [],
+  "natural-0012": [],
+  "natural-0013": [
+   {
+    "id": "small_rsa_key",
+    "line": 7
+   }
+  ],
+  "natural-0014": [],
+  "natural-0015": [],
+  "natural-0016": [],
+  "natural-0017": [],
+  "natural-0018": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 52
+   }
+  ],
+  "natural-0019": [],
+  "natural-0020": [],
+  "natural-0021": [],
+  "natural-0022": [],
+  "natural-0023": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 15
+   }
+  ],
+  "natural-0024": [],
+  "natural-0025": [],
+  "natural-0026": [],
+  "natural-0027": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   },
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0028": [],
+  "natural-0029": [
+   {
+    "id": "small_rsa_key",
+    "line": 8
+   }
+  ],
+  "natural-0030": [],
+  "natural-0031": [],
+  "natural-0032": [],
+  "natural-0033": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 15
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 28
+   }
+  ],
+  "natural-0034": [],
+  "natural-0035": [],
+  "natural-0036": [],
+  "natural-0037": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   },
+   {
+    "id": "weak_hash",
+    "line": 11
+   }
+  ],
+  "natural-0038": [],
+  "natural-0039": [],
+  "natural-0040": [],
+  "natural-0041": [
+   {
+    "id": "small_rsa_key",
+    "line": 8
+   }
+  ],
+  "natural-0042": [],
+  "natural-0043": [
+   {
+    "id": "weak_hash",
+    "line": 21
+   },
+   {
+    "id": "weak_hash",
+    "line": 32
+   }
+  ],
+  "natural-0044": [],
+  "natural-0045": [],
+  "natural-0046": [],
+  "natural-0047": [],
+  "natural-0048": [],
+  "natural-0049": [],
+  "natural-0050": [],
+  "natural-0051": [
+   {
+    "id": "weak_hash",
+    "line": 19
+   }
+  ],
+  "natural-0052": [],
+  "natural-0053": [],
+  "natural-0054": [
+   {
+    "id": "hardcoded_key",
+    "line": 21
+   }
+  ],
+  "natural-0055": [],
+  "natural-0056": [
+   {
+    "id": "weak_hash",
+    "line": 33
+   },
+   {
+    "id": "weak_hash",
+    "line": 33
+   },
+   {
+    "id": "weak_hash",
+    "line": 46
+   },
+   {
+    "id": "weak_hash",
+    "line": 46
+   }
+  ],
+  "natural-0057": [],
+  "natural-0058": [],
+  "natural-0059": [],
+  "natural-0060": [],
+  "natural-0061": [],
+  "natural-0062": [],
+  "natural-0063": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 29
+   }
+  ],
+  "natural-0064": [
+   {
+    "id": "small_rsa_key",
+    "line": 18
+   }
+  ],
+  "natural-0065": [],
+  "natural-0066": [],
+  "natural-0067": [],
+  "natural-0068": [],
+  "natural-0069": [],
+  "natural-0070": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 37
+   }
+  ],
+  "natural-0071": [],
+  "natural-0072": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   },
+   {
+    "id": "weak_hash",
+    "line": 11
+   },
+   {
+    "id": "weak_hash",
+    "line": 18
+   },
+   {
+    "id": "weak_hash",
+    "line": 18
+   }
+  ],
+  "natural-0073": [],
+  "natural-0074": [],
+  "natural-0075": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 29
+   }
+  ],
+  "natural-0076": [],
+  "natural-0077": [],
+  "natural-0078": [],
+  "natural-0079": [
+   {
+    "id": "small_rsa_key",
+    "line": 71
+   }
+  ],
+  "natural-0080": [],
+  "natural-0081": [],
+  "natural-0082": [
+   {
+    "id": "weak_hash",
+    "line": 17
+   },
+   {
+    "id": "weak_hash",
+    "line": 20
+   },
+   {
+    "id": "weak_hash",
+    "line": 24
+   }
+  ],
+  "natural-0083": [],
+  "natural-0084": [],
+  "natural-0085": [
+   {
+    "id": "weak_hash",
+    "line": 15
+   }
+  ],
+  "natural-0086": [],
+  "natural-0087": [],
+  "natural-0088": [],
+  "natural-0089": [],
+  "natural-0090": [],
+  "natural-0091": [],
+  "natural-0092": [],
+  "natural-0093": [
+   {
+    "id": "small_rsa_key",
+    "line": 9
+   }
+  ],
+  "natural-0094": [],
+  "natural-0095": [],
+  "natural-0096": [],
+  "natural-0097": [],
+  "natural-0098": [],
+  "natural-0099": [],
+  "natural-0100": [],
+  "natural-0101": [],
+  "natural-0102": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   },
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0103": [],
+  "natural-0104": [],
+  "natural-0105": [],
+  "natural-0106": [
+   {
+    "id": "small_rsa_key",
+    "line": 10
+   }
+  ],
+  "natural-0107": [
+   {
+    "id": "small_rsa_key",
+    "line": 12
+   }
+  ],
+  "natural-0108": [],
+  "natural-0109": [],
+  "natural-0110": [],
+  "natural-0111": [],
+  "natural-0112": [],
+  "natural-0113": [],
+  "natural-0114": [],
+  "natural-0115": [],
+  "natural-0116": [],
+  "natural-0117": [
+   {
+    "id": "hardcoded_key",
+    "line": 6
+   }
+  ],
+  "natural-0118": [],
+  "natural-0119": [],
+  "natural-0120": [
+   {
+    "id": "weak_hash",
+    "line": 24
+   },
+   {
+    "id": "weak_hash",
+    "line": 29
+   }
+  ],
+  "natural-0121": [],
+  "natural-0122": [],
+  "natural-0123": [],
+  "natural-0124": [],
+  "natural-0125": [],
+  "natural-0126": [],
+  "natural-0127": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 24
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 40
+   }
+  ],
+  "natural-0128": [],
+  "natural-0129": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 19
+   }
+  ],
+  "natural-0130": [],
+  "natural-0131": [],
+  "natural-0132": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   }
+  ],
+  "natural-0133": [],
+  "natural-0134": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 18
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 34
+   }
+  ],
+  "natural-0135": [],
+  "natural-0136": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 18
+   }
+  ],
+  "natural-0137": [],
+  "natural-0138": [
+   {
+    "id": "weak_hash",
+    "line": 15
+   }
+  ],
+  "natural-0139": [],
+  "natural-0140": [
+   {
+    "id": "small_rsa_key",
+    "line": 10
+   }
+  ],
+  "natural-0141": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 70
+   }
+  ],
+  "natural-0142": [],
+  "natural-0143": [],
+  "natural-0144": [],
+  "natural-0145": [],
+  "natural-0146": [],
+  "natural-0147": [],
+  "natural-0148": [],
+  "natural-0149": [],
+  "natural-0150": [],
+  "natural-0151": [],
+  "natural-0152": [],
+  "natural-0153": [],
+  "natural-0154": [],
+  "natural-0155": [],
+  "natural-0156": [],
+  "natural-0157": [],
+  "natural-0158": [],
+  "natural-0159": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 31
+   }
+  ],
+  "natural-0160": [],
+  "natural-0161": [],
+  "natural-0162": [],
+  "natural-0163": [],
+  "natural-0164": [],
+  "natural-0165": [],
+  "natural-0166": [
+   {
+    "id": "small_rsa_key",
+    "line": 19
+   }
+  ],
+  "natural-0167": [],
+  "natural-0168": [
+   {
+    "id": "weak_hash",
+    "line": 9
+   },
+   {
+    "id": "weak_hash",
+    "line": 9
+   }
+  ],
+  "natural-0169": [],
+  "natural-0170": [],
+  "natural-0171": [
+   {
+    "id": "small_rsa_key",
+    "line": 22
+   }
+  ],
+  "natural-0172": [],
+  "natural-0173": [
+   {
+    "id": "small_rsa_key",
+    "line": 10
+   }
+  ],
+  "natural-0174": [],
+  "natural-0175": [
+   {
+    "id": "weak_hash",
+    "line": 33
+   },
+   {
+    "id": "weak_hash",
+    "line": 33
+   }
+  ],
+  "natural-0176": [],
+  "natural-0177": [
+   {
+    "id": "small_rsa_key",
+    "line": 15
+   }
+  ],
+  "natural-0178": [],
+  "natural-0179": [
+   {
+    "id": "small_rsa_key",
+    "line": 12
+   },
+   {
+    "id": "tls_verify_disabled",
+    "line": 30
+   }
+  ],
+  "natural-0180": [],
+  "natural-0181": [],
+  "natural-0182": [],
+  "natural-0183": [
+   {
+    "id": "small_rsa_key",
+    "line": 19
+   }
+  ],
+  "natural-0184": [
+   {
+    "id": "small_rsa_key",
+    "line": 16
+   }
+  ],
+  "natural-0185": [
+   {
+    "id": "small_rsa_key",
+    "line": 12
+   }
+  ],
+  "natural-0186": [],
+  "natural-0187": [],
+  "natural-0188": [],
+  "natural-0189": [],
+  "natural-0190": [],
+  "natural-0191": [],
+  "natural-0192": [],
+  "natural-0193": [],
+  "natural-0194": [],
+  "natural-0195": [],
+  "natural-0196": [],
+  "natural-0197": [],
+  "natural-0198": [],
+  "natural-0199": [],
+  "natural-0200": [],
+  "natural-0201": [],
+  "natural-0202": [],
+  "natural-0203": [],
+  "natural-0204": [],
+  "natural-0205": [],
+  "natural-0206": [],
+  "natural-0207": [
+   {
+    "id": "weak_hash",
+    "line": 11
+   },
+   {
+    "id": "weak_hash",
+    "line": 11
+   }
+  ],
+  "natural-0208": [],
+  "natural-0209": [],
+  "natural-0210": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   },
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0211": [],
+  "natural-0212": [],
+  "natural-0213": [],
+  "natural-0214": [],
+  "natural-0215": [],
+  "natural-0216": [],
+  "natural-0217": [],
+  "natural-0218": [],
+  "natural-0219": [],
+  "natural-0220": [],
+  "natural-0221": [],
+  "natural-0222": [
+   {
+    "id": "weak_hash",
+    "line": 22
+   },
+   {
+    "id": "weak_hash",
+    "line": 22
+   }
+  ],
+  "natural-0223": [],
+  "natural-0224": [],
+  "natural-0225": [],
+  "natural-0226": [],
+  "natural-0227": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 23
+   }
+  ],
+  "natural-0228": [
+   {
+    "id": "weak_hash",
+    "line": 13
+   }
+  ],
+  "natural-0229": [
+   {
+    "id": "weak_hash",
+    "line": 23
+   },
+   {
+    "id": "weak_hash",
+    "line": 23
+   }
+  ],
+  "natural-0230": [],
+  "natural-0231": [],
+  "natural-0232": [
+   {
+    "id": "small_rsa_key",
+    "line": 9
+   }
+  ],
+  "natural-0233": [],
+  "natural-0234": [
+   {
+    "id": "tls_verify_disabled",
+    "line": 39
+   }
+  ],
+  "natural-0235": [],
+  "natural-0236": [
+   {
+    "id": "small_rsa_key",
+    "line": 7
+   }
+  ]
+ }
+}
